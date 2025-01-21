@@ -1,4 +1,4 @@
-nav {
+nav.top {
     max-width: 22.5rem;
     width: 100%;
     padding: 1.25rem 1.5rem;
@@ -47,7 +47,7 @@ nav {
 }
 
 @media (width >= 80em) {
-    nav {
+    nav.top {
         max-width: 80rem;
         width: 100%;
         padding: 1.25rem 2rem;
