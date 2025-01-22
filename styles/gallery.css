@@ -51,7 +51,8 @@ section .gallery {
         margin-top: 2rem;
         display: grid;
         grid-template-columns: 1fr; 
-        gap: 2.5rem; 
+        gap: 1.5rem;
+        padding: 1.5rem; 
     }
 
     & figure {
@@ -69,7 +70,8 @@ section .gallery {
             }
 
             & > img {
-                height: 25rem;
+                width: 100%;
+                height: 16rem;
                 object-fit: cover;
                 transition: scale 500ms;
             }
@@ -161,6 +163,7 @@ section .gallery {
             }
 
             & > img {
+                width: 100%;
                 height: 25rem;
                 object-fit: cover;
                 transition: scale 500ms;
